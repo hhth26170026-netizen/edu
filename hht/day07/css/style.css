@@ -147,3 +147,12 @@ a:focus-visible,
     grid-template-columns: repeat(2, 1fr);
   }
 }
+contact-form label {
+  display: block;
+}
+
+.contact-form input:not([type="radio"]):not([type="checkbox"]),
+.contact-form textarea {
+  display: block;
+  max-width: 100%;
+}
